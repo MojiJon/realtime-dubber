@@ -1,0 +1,15 @@
+# Windows-only audio loopback capture (fork of PyAudio with WASAPI loopback support)
+PyAudioWPatch
+
+# Numeric processing for audio buffers (downmixing, resampling)
+numpy
+
+# Official Google Gemini SDK
+google-genai
+
+# Windows Core Audio control -> used to duck (lower) system volume
+pycaw
+comtypes
+
+# Loads GEMINI_API_KEY (and optional proxy settings) from a .env file
+python-dotenv
