@@ -17,6 +17,8 @@ from live_translator import run
 
 
 def main():
+    print(f"Realtime Dubber v{config.__version__}\n")
+
     if not config.GEMINI_API_KEY:
         print(
             "GEMINI_API_KEY environment variable is not set. "
